@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+/* html {
+  height: 500vh;
+} */
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header {
+  width: 100%;
+  padding: 60px 4%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+header.scroll-class {
+  background-color: #0862d7;
+  padding: 20px 4%;
+}
+header.scroll-class a {
+  color: #fff;
+}
+header.scroll-class .btn-login {
+  background-color: #ffffff;
+  color: #0862d7;
+}
+
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 40px;
+}
+
+header ul li a {
+  color: white;
+}
+.btn-login {
+  width: 100px;
+  height: 35px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #0862d7;
+  color: #fff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.capa {
+  height: 100vh;
+  background-image: url(../img/capa.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+}
+
+.home-content {
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  padding: 60px 4%;
+  max-width: 800px;
+  margin: 3rem;
+}
+.home-content h1 {
+  font-family: "Italiana", serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+.home-content h2 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.home-content p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  max-width: 600px;
+}

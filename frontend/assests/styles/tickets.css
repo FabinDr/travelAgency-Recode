@@ -1,0 +1,93 @@
+.section-container {
+  padding: 5rem 1rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.tickets-title {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.tickets-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: #000000;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  height: 74%;
+  border-radius: 20px 20px 0 0;
+}
+
+.tickets-container {
+  background-color: white;
+}
+.tickets-table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.location-card {
+  background-color: #e9ecef;
+  border-radius: 20px;
+}
+
+.location-card:hover {
+  border: 2px solid #0862d7;
+  cursor: pointer;
+}
+.location-name {
+  padding: 0.5rem;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #6c757d;
+  cursor: pointer;
+}
+.location-name i {
+  font-size: 1.2rem;
+}
+
+.location-name h5 {
+  font-style: italic;
+}
+
+.btn-location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px;
+  margin-bottom: 23px;
+}
+.btn-location a {
+  background: #000;
+  color: #fff;
+  border-radius: 15px;
+  padding: 6px 20px;
+  font-size: 16px;
+  transition: 0.3s linear;
+}
+.btn-location a:hover {
+  background: #6c757d;
+}
+.btn-location h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 5px;
+  line-height: 15px;
+}
+
+/* .location-name span{
+
+} */
