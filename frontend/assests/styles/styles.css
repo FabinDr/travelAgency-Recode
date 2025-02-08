@@ -94,3 +94,72 @@ header ul li a {
   line-height: 1.3rem;
   max-width: 600px;
 }
+
+/* Responsividade para tablets (768px - 1024px) */
+/* @media (max-width: 1024px) {
+  .home-title,
+  .destinos-title {
+    font-size: 2rem;
+  }
+
+  .home-subtitle {
+    font-size: 1rem;
+  }
+
+  .destinos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .destino-card img {
+    height: 180px;
+  }
+} */
+
+/* Responsividade para smartphones (480px - 768px) */
+/* @media (max-width: 768px) {
+  .home-section,
+  .destinos-section {
+    padding: 3rem 1rem;
+  }
+
+  .home-title,
+  .destinos-title {
+    font-size: 1.75rem;
+  }
+
+  .home-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .destinos-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .destino-card img {
+    height: 150px;
+  }
+
+  .home-button {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+} */
+
+/* Responsividade para smartphones pequenos (até 480px) */
+@media (max-width: 480px) {
+  .logo {
+    width: 6rem;
+  }
+  .home-content {
+    max-width: 400px;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  .home-content h1 {
+    font-size: 1.9rem;
+  }
+
+  .home-content p {
+    font-size: 0.9rem;
+  }
+}

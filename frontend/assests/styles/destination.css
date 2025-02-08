@@ -149,14 +149,16 @@
   }
   .destination-section {
     grid-template-columns: repeat(1, 1fr);
+    padding: 30px;
     gap: 1rem;
   }
-  .destination-card h3 {
+  .destination-card h2 {
     font-size: 1.2rem;
   }
 
   .destination-card p {
     font-size: 0.9rem;
+    margin-bottom: 1rem;
   }
   .destination-img img {
     width: 100%;
