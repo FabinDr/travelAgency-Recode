@@ -91,3 +91,79 @@ img {
 /* .location-name span{
 
 } */
+
+/* Responsividade*/
+/* Responsividade */
+@media (max-width: 1024px) {
+  .tickets-table {
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas em tablets */
+  }
+
+  .tickets-title {
+    font-size: 1.5rem;
+  }
+
+  .tickets-subtitle {
+    font-size: 0.9rem;
+  }
+
+  img {
+    height: 65%;
+  }
+}
+
+@media (max-width: 768px) {
+  .tickets-table {
+    grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
+  }
+
+  .tickets-title {
+    font-size: 1.5rem;
+  }
+
+  .tickets-subtitle {
+    font-size: 0.8rem;
+  }
+
+  img {
+    height: 60%;
+  }
+
+  .section-container {
+    padding: 3rem 1rem;
+  }
+
+  .btn-location a {
+    padding: 5px 15px;
+    font-size: 14px;
+  }
+
+  .btn-location h5 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tickets-title {
+    font-size: 1.5rem;
+  }
+  .tickets-subtitle {
+    font-size: 0.75rem;
+  }
+
+  img {
+    height: 70%;
+  }
+  .btn-location {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    padding: 0px 15px;
+  }
+  .btn-location a {
+    padding: 10px 25px;
+    font-size: 16px;
+  }
+  .btn-location h5 {
+    font-size: 18px;
+  }
+}

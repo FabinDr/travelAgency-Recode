@@ -12,7 +12,6 @@
   gap: 7rem;
   padding: 60px 80px;
   /* padding: 70px 17% 60px; */
-  border: 3px solid #000;
 }
 /* .destination-img {
 } */
@@ -29,7 +28,7 @@
   text-align: center;
   margin-bottom: 1rem;
 }
-.destination-text {
+.destination-card {
   padding: 10px;
   background-color: #fefae0;
 }
@@ -51,14 +50,14 @@
   margin-bottom: 10px;
 }
 
-.destination-text h5 {
+.destination-card h5 {
   font-family: "Italiana", serif;
   font-size: 22px;
   font-weight: 600;
   color: #000;
 }
 
-.destination-text h2 {
+.destination-card h2 {
   font-family: "Italiana", serif;
   font-weight: 500;
   font-size: 0.9rem;
@@ -67,7 +66,7 @@
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
-.destination-text p {
+.destination-card p {
   font-size: 0.8rem;
   line-height: 1.1rem;
   font-weight: 400;
@@ -78,7 +77,6 @@
 .btn-destination {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   padding: 10px;
   border-radius: 15px;
   border: 1px solid #000;
@@ -88,4 +86,79 @@
 }
 .btn-destination:hover {
   background-color: #0077b6;
+}
+
+.btn-destination-bt {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+.btn-destination-btn {
+  width: 300px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  cursor: pointer;
+  background-color: #0862d7;
+  color: #fff;
+  font-size: 1rem;
+}
+.btn-destination-btn:hover {
+  background: #6c757d;
+}
+
+/* Responsividade para tablets (768px - 1024px) */
+@media (max-width: 1024px) {
+  .tickets-title {
+    font-size: 2rem;
+  }
+
+  .destination-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .destination-card img {
+    height: 180px;
+  }
+}
+
+/* Responsividade para smartphones (480px - 768px) */
+@media (max-width: 768px) {
+  .destination {
+    padding: 3rem 1rem;
+  }
+  .tickets-title {
+    font-size: 1.75rem;
+  }
+
+  .destination-card {
+    grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
+  }
+
+  .destination-card img {
+    height: 150px;
+  }
+}
+
+/* Responsividade para smartphones pequenos (até 480px) */
+@media (max-width: 480px) {
+  .tickets-title {
+    font-size: 1.5rem;
+  }
+  .destination-section {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+  .destination-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .destination-card p {
+    font-size: 0.9rem;
+  }
+  .destination-img img {
+    width: 100%;
+  }
 }
