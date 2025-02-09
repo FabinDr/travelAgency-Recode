@@ -108,41 +108,7 @@
 .btn-destination-btn:hover {
   background: #6c757d;
 }
-
-/* Responsividade para tablets (768px - 1024px) */
-@media (max-width: 1024px) {
-  .tickets-title {
-    font-size: 2rem;
-  }
-
-  .destination-section {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .destination-card img {
-    height: 180px;
-  }
-}
-
-/* Responsividade para smartphones (480px - 768px) */
-@media (max-width: 768px) {
-  .destination {
-    padding: 3rem 1rem;
-  }
-  .tickets-title {
-    font-size: 1.75rem;
-  }
-
-  .destination-card {
-    grid-template-columns: repeat(1, 1fr); /* 1 coluna em smartphones */
-  }
-
-  .destination-card img {
-    height: 150px;
-  }
-}
-
-/* Responsividade para smartphones pequenos (até 480px) */
+/* Responsividade para smartphones */
 @media (max-width: 480px) {
   .tickets-title {
     font-size: 1.5rem;
