@@ -23,7 +23,7 @@
 
 ###
 
-<p align="center"><a href="https://www.figma.com/design/195j3SEELrKCLhYgLn0u49/Projeto-Recode?node-id=0-1&t=ZFQ1cW9MQrw0RjzJ-1" target="_blank" rel="noopener noreferrer">Figma do Projeto</a></p>
+<p align="center"><a href="https://www.figma.com/design/195j3SEELrKCLhYgLn0u49/Projeto-Recode?node-id=0-1&t=ZFQ1cW9MQrw0RjzJ-1" target="_blank">Figma do Projeto</a></p>
 
 ###
 
