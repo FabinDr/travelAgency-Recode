@@ -18,7 +18,7 @@
 ###
 
 <div align="center">
-  <img height="200" src="https://github.com/user-attachments/assets/1a8f14a5-cb60-4a91-bee9-c5a7b5f9fbc6" />
+  <img height="200" src="https://github.com/user-attachments/assets/d2a312a4-1fc4-4d42-8ee9-7e6ec6b100e0" />
 </div>
 
 ###
